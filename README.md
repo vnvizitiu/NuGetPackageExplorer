@@ -1,5 +1,7 @@
 ![Logo](https://cloud.githubusercontent.com/assets/5808377/11324261/06c2ccd8-912d-11e5-87e4-9898b2217baa.png)
 
+[![Release](https://img.shields.io/github/release/NuGetPackageExplorer/NuGetPackageExplorer.svg)](https://npe.codeplex.com/downloads/get/clickOnce/NuGetPackageExplorer.application)
+
 [Latest clickonce release 3.11 (feb 2016)](https://npe.codeplex.com/downloads/get/clickOnce/NuGetPackageExplorer.application) (uninstall previous version first)
 
 [![Join the chat at https://gitter.im/NuGetPackageExplorer/NuGetPackageExplorer](https://badges.gitter.im/NuGetPackageExplorer/NuGetPackageExplorer.svg)](https://gitter.im/NuGetPackageExplorer/NuGetPackageExplorer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
