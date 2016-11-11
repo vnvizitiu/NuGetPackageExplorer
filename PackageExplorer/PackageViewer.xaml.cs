@@ -53,11 +53,19 @@ namespace PackageExplorer
                     }
                 },
                 {
+                    //see https://docs.nuget.org/ndocs/schema/target-frameworks
                     "Xamarin",
                     new[]
                     {
-                        "Mac", "Xamarin.Mac", 
-                        "iOS", "Xamarin.iOS10", 
+                        "Mac", "xamarinmac", 
+                        "iOS", "xamarinios",
+                        "Playstation 3", "xamarinpsthree", 
+                        "Playstation 4", "xamarinpsfour", 
+                        "PS Vita", "xamarinpsvita",
+                        "Watch OS", "xamarinwatchos",
+                        "TV OS", "xamarintvos",
+                        "XBox 360", "xamarinxboxthreesixty",
+                        "XBox One", "xamarinxboxone", 
                     }
                 },
                 {
@@ -113,7 +121,8 @@ namespace PackageExplorer
                 },
 
                 {
-                    
+                    //see https://github.com/dotnet/corefx/blob/master/Documentation/architecture/net-platform-standard.md 
+                    //and https://docs.microsoft.com/en-us/dotnet/articles/standard/library
                     ".NET Platform Standard",
                     new []
                     {
@@ -122,6 +131,9 @@ namespace PackageExplorer
                         ".NET Platform Standard 1.2","netstandard1.2",
                         ".NET Platform Standard 1.3","netstandard1.3",
                         ".NET Platform Standard 1.4","netstandard1.4",
+                        ".NET Platform Standard 1.5","netstandard1.5",
+                        ".NET Platform Standard 1.6","netstandard1.6",
+                        ".NET Platform Standard 2.0","netstandard2.0",
                     }
 
                 }
@@ -145,6 +157,8 @@ namespace PackageExplorer
                         "v4.5.2", "net452",
                         "v4.6", "net46",
                         "v4.6.1", "net461",
+                        "v4.6.2", "net462",
+                        "v4.6.3", "net463",
                     }
                 }
             };
